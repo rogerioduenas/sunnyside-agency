@@ -22,10 +22,36 @@ ul{
     column-gap: 20px;
 }
 /* capa */
+.container{
+    width: 100%;
+    position: relative;
+}
 .capa{
     width: 100%;
-    background-image: url(./images/desktop/image-header.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 500px;
+}
+.text{
+    position: absolute;
+    bottom: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: grey;
+}
+/* container 2 */
+.container2{
+    margin-top: -5px;
+    width: 100%;
+}
+.cont1{
+    display: flex;
+    margin-top: -5px;
+}
+.text1{
+    width: 50%;
+}
+.ovo{
+    width: 50%;
+}
+.ovo1{
+    width: 100%;
 }
