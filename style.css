@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    height: 1200;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    color: black;
+    background: #3EBEFE;
+}
+ul{
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+}
+/* capa */
+.capa{
+    width: 100%;
+    background-image: url(./images/desktop/image-header.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
